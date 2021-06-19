@@ -2,6 +2,9 @@
 
 # Cheaper Medical Operations
 
+## Project figma Link
+Open [cheap medical operation design link](https://www.figma.com/file/1IUXgZewU6Z4r3VNI81t3r/CMO---DSN?node-id=0%3A1) to view it in the browser.
+
 ## Project Description
 
 The aim of this research is to create a link or a channel between those who are willing to sponsor the medical expenses of any individual `International or local sponsors` and the individual who needs treatment/surgery, most especially in underdeveloped countries like **Nigeria.**
