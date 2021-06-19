@@ -1,19 +1,27 @@
+/* PLEASE GIVE SPACE BETWEEN THE STYLES TO MAKE IT READABLE */
+
+.signup{
+  padding-top:100px;
+  height:100vh;
+}
+
+
 .social-signup{
     display: flex;
     margin: 5px auto;
     justify-content: center;
   }
+
   .twitter,.facebook,.google{
     margin-top: 15px;
     font-size: 25px;
     margin-left: 7px;
   }
+
   .twitter{
     color: #00acee;
   }
+
   .facebook{
     color: #3b5998;
   }
-.container{
-  
-}

@@ -1,12 +1,22 @@
 import './App.css';
-import Signup from './pages/Signup';
+
+// PACKAGES
+import { BrowserRouter as Router } from 'react-router-dom';
+
+
+// COMPONENTS
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import Routes from './routes/Routes';
 
 
 function App() {
   return (
-    <div>
-      <Signup />
-    </div>
+    <Router>
+        <Navbar/>
+        <Routes/>
+        <Footer/>
+    </Router>
   );
 }
 

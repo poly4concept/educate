@@ -1,11 +1,17 @@
 import React from 'react';
-import '../styles/Signup.css';
+
+// PACKAGES
 import { FcGoogle } from 'react-icons/fc'
 import { RiFacebookCircleFill } from 'react-icons/ri'
 import { GrTwitter } from 'react-icons/gr'
+
+// COMPONENTS
+
+
+
 function Signup() {
     return (
-        <div>
+        <div className="signup">
             <div className="social-signup">
                 <p>Register with</p>
                 <RiFacebookCircleFill className="facebook"/>
