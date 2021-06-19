@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* global variables */
+:root{
+  --white: #fff;
+  --primary: #072764;
+  --secondary: #f7f9fb;
+  --light: #eaeced;
+  --fade: #5a6bbf;
+  --main: #93d823;
+  --main-light: #93d823a4;
+  --primary-light: #072864c4;
+  --shadows: 0px 22px 24px  rgba(65, 111, 244, 0.2);
+  --shadow: 15px 15px 25px #ddd; 
+  --shadoos: 0px 0px 7px rgba(65, 111, 65 0.2)
+  --transition: all 0.3s linear;
+}
