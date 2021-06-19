@@ -24,6 +24,6 @@ code {
   --primary-light: #072864c4;
   --shadows: 0px 22px 24px  rgba(65, 111, 244, 0.2);
   --shadow: 15px 15px 25px #ddd; 
-  --shadoos: 0px 0px 7px rgba(65, 111, 65 0.2)
+  --shadoos: 0px 0px 7px rgba(65, 111, 65 0.2);
   --transition: all 0.3s linear;
 }
