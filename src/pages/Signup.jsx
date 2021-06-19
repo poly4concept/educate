@@ -11,7 +11,7 @@ import { GrTwitter } from 'react-icons/gr'
 
 function Signup() {
     return (
-        <div>
+        <div className="signup">
             <div className="social-signup">
                 <p>Register with</p>
                 <RiFacebookCircleFill className="facebook"/>

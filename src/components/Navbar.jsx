@@ -4,9 +4,9 @@ import React, { useState } from 'react'
 // PACKAGES
 import { Link, NavLink } from 'react-router-dom'
 import { BiMenuAltRight } from "react-icons/bi"
-import { FaTimesCircle } from "react-icons/fa"
+import { FaSearch, FaTimesCircle } from "react-icons/fa"
 
-// IMAGES
+
 // IMAGES
 import logo from '../assets/logo.svg'
 
@@ -41,8 +41,13 @@ const Navbar = () => {
                 </Link>
             </div>
 
+            <div className="search">
+                <FaSearch className="search-icon"/>
+                <input type="text" placeholder="Search CMO"/>
+            </div>
+
             <div className="menu" onClick={() => setMenu(!menu)}>
-                <BiMenuAltRight/> 
+                <BiMenuAltRight /> 
             </div>
 
             <ul className="header-link" style={styleMenu} onClick={() => setMenu(!menu)}>
@@ -50,16 +55,16 @@ const Navbar = () => {
                     <NavLink exact to="/" className="link" activeClassName="link-active">Home</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/about" className="link" activeClassName="link-active">About</NavLink>
+                    <NavLink to="/request_help" className="link" activeClassName="link-active">Request help</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/subsidiaries" className="link" activeClassName="link-active">Subsidiaries</NavLink>
+                    <NavLink to="/how_it_works" className="link" activeClassName="link-active">How it works</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/gallery" className="link" activeClassName="link-active">Gallery</NavLink>
+                    <NavLink to="/contact_us" className="link" activeClassName="link-active">Contact us</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/contact" className="link" activeClassName="link-active">Contact</NavLink>
+                    <NavLink to="/sign_up" className="link" activeClassName="link-active">Signup </NavLink>
                 </li>
 
                 <li onClick={() => setMenu(!menu)}>

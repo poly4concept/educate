@@ -1,5 +1,10 @@
 /* PLEASE GIVE SPACE BETWEEN THE STYLES TO MAKE IT READABLE */
 
+.signup{
+  padding-top:100px;
+}
+
+
 .social-signup{
     display: flex;
     margin: 5px auto;
