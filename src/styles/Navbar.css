@@ -64,6 +64,10 @@ header .header-link li:hover{
     position:relative;
 }
 
+.search-active{
+  border:1px solid var(--fade)
+}
+
 .search input{
     padding:10px;
     outline: none;

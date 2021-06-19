@@ -1,0 +1,96 @@
+footer{
+    background:var(--secondary);
+    padding:3rem 0 3rem;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+    font-family:'DM Sans';
+}
+
+.footers{
+    width:90%;
+    display:flex;
+    flex-direction:column;
+    border-bottom:1px solid var(--fade);
+    padding-top:0;
+}
+
+
+.footer{
+    width:93%;
+    padding:10px;
+    color:var(--white);
+    text-align:center;
+}
+
+.footer img{
+    width:30%;
+    margin-top:10px;
+}
+
+.footer p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: -0.66px;
+}
+
+.footer h4{
+    text-align:center;
+}
+
+footer .small{
+    padding-top:20px;
+    color:var(--fade);
+    font-size:13px;
+}
+
+.footer-image{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;   
+}
+
+.footer .footer-image img{
+    width:70px;
+    height:70px;
+    object-fit: cover;
+    cursor:pointer;
+}
+
+/* ===================================== */
+/* THE SECTION OF THE MEDIA QUERY */
+@media screen and (min-width:900px){
+    .footers{
+        width:95%;
+        flex-direction:row;
+        justify-content:space-between;
+    }
+
+    .footer{
+        width:30%;
+    }
+
+    .footer h3{
+        text-align:left;
+    }
+
+    .footer h5{
+        font-weight: 400;
+    }
+
+    
+    .footer img{
+        width:15%;
+        margin-top:10px;
+    }
+}
+
+@media screen and (min-width:200px) and (max-width:425px){
+    .footer img{
+        width:45%;
+        margin-top:0px;
+    }
+
+}

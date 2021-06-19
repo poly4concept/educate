@@ -41,7 +41,7 @@ const Navbar = () => {
                 </Link>
             </div>
 
-            <div className="search">
+            <div className={navbar ? 'search search-active' : 'search'}>
                 <FaSearch className="search-icon"/>
                 <input type="text" placeholder="Search CMO"/>
             </div>
@@ -55,13 +55,13 @@ const Navbar = () => {
                     <NavLink exact to="/" className="link" activeClassName="link-active">Home</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/request_help" className="link" activeClassName="link-active">Request help</NavLink>
+                    <NavLink to="/request" className="link" activeClassName="link-active">Request help</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/how_it_works" className="link" activeClassName="link-active">How it works</NavLink>
+                    <NavLink to="/how" className="link" activeClassName="link-active">How it works</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/contact_us" className="link" activeClassName="link-active">Contact us</NavLink>
+                    <NavLink to="/contact" className="link" activeClassName="link-active">Contact us</NavLink>
                 </li>
                 <li>
                     <NavLink to="/sign_up" className="link" activeClassName="link-active">Signup </NavLink>
