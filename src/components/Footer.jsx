@@ -1,7 +1,7 @@
 import React from 'react'
 
 // PACKAGES
-import {Link} from 'react-router-dom'
+
 
 // COMPONENTS
 
