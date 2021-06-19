@@ -153,7 +153,12 @@ header .header-link li:hover{
       cursor:pointer;
     }
 
+  /* THE SECTION OF THE SEARCH */
+  .search{
+    width:30%;
   }
+
+}
 
 
   @media screen and (max-width:375px){
@@ -164,17 +169,22 @@ header .header-link li:hover{
   }
 
   @media screen and (max-width:425px){
+
     header .menu{
-      position: absolute;
-      top:20px;
-      right: 20px;
-      margin-right:40px;
+      margin-top:10px;
+    }
+
+    header .logo{
+      width:50px;
+      text-align:center;
     }
 
     header .logo img{
       width:35%;
       height:75%;
-      object-fit: cover;
-      margin-top:5px;
+    }
+
+    .search{
+      width:50%;
     }
   }
