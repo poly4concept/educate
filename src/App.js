@@ -1,8 +1,11 @@
 import './styles/App.css';
+import Signup from './pages/Signup';
+
+
 function App() {
   return (
     <div>
-      Cheaper Medical Operations
+      <Signup/>
     </div>
   );
 }
