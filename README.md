@@ -2,8 +2,12 @@
 
 # Cheaper Medical Operations
 
-## Project figma Link
+### Project figma Link
 Open [cheap medical operation design link](https://www.figma.com/file/1IUXgZewU6Z4r3VNI81t3r/CMO---DSN?node-id=0%3A1) to view it in the browser.
+
+
+### Project site link 
+Click [here](https://cmo-fe-pjt-15.netlify.app)to access the website 
 
 ## Project Description
 
