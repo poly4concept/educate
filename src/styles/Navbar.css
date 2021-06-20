@@ -25,11 +25,19 @@ header{
   font-weight:bold;
 }
 
+.logo{
+  background:var(--white);
+  border-radius:150px;
+  height:50px;
+  width:50px;
+  text-align:center;
+}
+
 header .logo img{
   width:50%;
   height:50%;
   object-fit: cover;
-  margin-top:5px;
+  margin-top:12px;
 }
 
 
@@ -94,6 +102,7 @@ header .header-link li:hover{
 
 
 /* The section of the media query */
+/* ================================================ */
 
 @media (max-width: 878px){
 
@@ -111,7 +120,8 @@ header .header-link li:hover{
 }
   
   
-  
+
+/*  ==================================================== */
 @media (max-width: 768px){
   header .header-link{
     position: fixed;
@@ -161,6 +171,8 @@ header .header-link li:hover{
 }
 
 
+
+/* ======================================================= */
   @media screen and (max-width:375px){
     header .header-link{
       padding-top:50px;
@@ -168,6 +180,8 @@ header .header-link li:hover{
     }
   }
 
+
+  /* ============================================================== */
   @media screen and (max-width:425px){
 
     header .menu{
@@ -175,13 +189,14 @@ header .header-link li:hover{
     }
 
     header .logo{
-      width:50px;
+      width:40px;
+      height:40px;
       text-align:center;
     }
 
     header .logo img{
-      width:35%;
-      height:75%;
+      width:50%;
+      height:50%;
     }
 
     .search{

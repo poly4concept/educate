@@ -7,7 +7,7 @@ import React from 'react'
 
 
 // IMAGES
-import logo from '../assets/logo.svg'
+import logo from '../assets/ikons.png'
 
 const Footer = () => {
     return (

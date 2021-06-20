@@ -8,7 +8,7 @@ import { FaSearch, FaTimesCircle } from "react-icons/fa"
 
 
 // IMAGES
-import logo from '../assets/logo.svg'
+import logo from '../assets/ikons.png'
 
 
 const Navbar = () => {

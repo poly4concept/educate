@@ -1,14 +1,12 @@
 import React from 'react'
 
+// COMPONENTS
+import Hero from '../components/Hero'
+
 const Home = () => {
     return (
-        <div className="home" style={{
-            height:"100vh",
-            display:'flex',
-            alignItems:"center",
-            justifyContent:"center"
-        }}>
-            welcome to the homepage
+        <div className="home">
+           <Hero/>
         </div>
     )
 }
