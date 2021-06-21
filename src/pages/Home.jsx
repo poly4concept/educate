@@ -4,6 +4,7 @@ import React from 'react'
 import Hero from '../components/Hero'
 import Believe from '../components/Believe'
 import Three from '../components/Three'
+import SubComponent from '../components/SubComponent'
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
            <Hero/>
            <Believe/>
            <Three/>
+           <SubComponent/>
         </div>
     )
 }
