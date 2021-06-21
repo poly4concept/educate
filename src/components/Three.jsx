@@ -28,9 +28,9 @@ const Three = () => {
 
                <div className="three-right-center">
                    {Services.map(service => {
-                       const { title, icon, text} = service
+                       const { id, title, icon, text} = service
                        return(
-                        <div className="three-card">
+                        <div className="three-card" key={id}>
                             {icon}
                             <h3>{title}</h3>
                             <span>{text}</span>
