@@ -1,11 +1,11 @@
 import React from "react"
 
-const one = `https://res.cloudinary.com/devsource/image/upload/v1624273908/cmo/thought-catalog-23KdVfc395A-unsplash_xprrs7.jpg`;
-const two = `https://res.cloudinary.com/devsource/image/upload/v1624273291/cmo/elizeu-dias-2EGNqazbAMk-unsplash_gwb0hu.jpg`
-const three = `https://res.cloudinary.com/devsource/image/upload/v1624273290/cmo/prince-akachi-i2hoD-C2RUA-unsplash_coh81v.jpg`
-const six = `https://res.cloudinary.com/devsource/image/upload/v1624288028/cmo/jessica-felicio-nIKCy5CWIzk-unsplash_hk2q5o.jpg`
-const four = `https://res.cloudinary.com/devsource/image/upload/v1624288297/cmo/mohammad-faruque-SpIKPT8zeAs-unsplash_irzazj.jpg`
-const five = `https://res.cloudinary.com/devsource/image/upload/v1624288296/cmo/etty-fidele-J1jYLLlRpA4-unsplash_hqaotf.jpg`
+const one = `https://res.cloudinary.com/devsource/image/upload/v1624292523/cmo/W2S6ZRE5KMI6NJ6KBG6AZEZPAQ_t8ljke.jpg`;
+const two = `https://res.cloudinary.com/devsource/image/upload/v1624292520/cmo/black_patients_child_family_Marko_Geber_Getty_Images_lmemtn.jpg`
+const three = `https://res.cloudinary.com/devsource/image/upload/v1624292520/cmo/000_9AD9RB_tarsdd.jpg`
+const six = `https://res.cloudinary.com/devsource/image/upload/v1624292520/cmo/GettyImages-633707477_header-1024x575_jbyjxh.jpg`
+const four = `https://res.cloudinary.com/devsource/image/upload/v1624292519/cmo/african-young-doctor-mask-consulting-260nw-1925218361_qnbmod.jpg`
+const five = `https://res.cloudinary.com/devsource/image/upload/v1624292520/cmo/images_2_xe3r3c.jpg`
 
 
 const sub = [
