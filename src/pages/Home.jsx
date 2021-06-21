@@ -7,6 +7,7 @@ import Three from '../components/Three'
 import SubComponent from '../components/SubComponent'
 import Testimonials from '../components/Testimonials'
 import Help from '../components/Help'
+import Own from '../components/Own'
 
 const Home = () => {
     return (
@@ -16,6 +17,7 @@ const Home = () => {
            <Three/>
            <SubComponent/>
            <Help/>
+           <Own/>
            <Testimonials/>
         </div>
     )
