@@ -4,7 +4,7 @@ import React from 'react'
 
 
 // COMPONENTS
-import Services from '../constants/Believe';
+import services from '../constants/Believe';
 
 
 const Believe = () => {
@@ -12,10 +12,10 @@ const Believe = () => {
         <div className="believe">
             <h2>We Believe that we can save more lifes with you</h2>
             <div className="believe-center">
-                {Services.map((service) => {
+                {services.map((service) => {
                         const { id, icon, title, text } = service;
                         return (
-                            <article key={id} className="believe-div">
+                            <div key={id} className="believe-div">
                                 <div className="icon-box">
                                     {icon}
                                 </div>
@@ -23,7 +23,7 @@ const Believe = () => {
                                     <h4>{title}</h4>
                                     <p>{text}</p>
                                 </div>
-                            </article>
+                            </div>
                         )
                     })}
             </div>
