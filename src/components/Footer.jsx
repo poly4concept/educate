@@ -15,7 +15,7 @@ const Footer = () => {
             <div className="footers">
                 <div className="footer">
                     <img src={logo} alt="footer-pic" />
-                    <h5>We are powerful free fundraising platform</h5>
+                    <h5>Cheap Medical Operation is a is a non-profit organization to support people worldwide and keep an eye in the future Support.</h5>
                 </div>
                 <div className="footer">
                     <h4>LEARN MORE</h4>

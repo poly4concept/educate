@@ -21,13 +21,13 @@ body {
   --secondary: #016F92;
   --red: #EA4335;
   --light: #eaeced;
-  --fade:#eaecedcb;
+  --fades:#6b7275dc;
+  --fade: #bbc2c5dc;
 
-
-  /* --fade: #5a6bbf;
+ 
   --main: #93d823;
   --main-light: #93d823a4;
-  --primary-light: #072864c4; */
+  --primary-light: #072864c4;
   
   --shadows: 0px 22px 24px  rgba(65, 111, 244, 0.2);
   --shadow: 15px 15px 25px #ddd; 
