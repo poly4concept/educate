@@ -27,7 +27,15 @@ function Signup() {
                     </div>
                     <div class="form-control">
                         <input type="text" required value="Last Name" />
-                        <label for="">LAST NAME</label>
+                        <label for="">Email</label>
+                    </div>
+                    <div class="form-control">
+                        <input type="text" required value="First Name" />
+                        <label for="">FIRST NAME</label>
+                    </div>
+                    <div class="form-control">
+                        <input type="text" required value="Last Name" />
+                        <label for="">Email</label>
                     </div>
                 </form>
             </div>
