@@ -55,7 +55,7 @@ const Navbar = () => {
                     <NavLink exact to="/" className="link" activeClassName="link-active">Home</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/sign_up" className="link" activeClassName="link-active">Request help</NavLink>
+                    <NavLink to="/request_help" className="link" activeClassName="link-active">Request help</NavLink>
                 </li>
                 <li>
                     <NavLink to="/how" className="link" activeClassName="link-active">How it works</NavLink>

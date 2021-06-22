@@ -10,7 +10,7 @@ import Contact from '../pages/Contact'
 import How from '../pages/How'
 import RequestHelp from '../pages/RequestHelp'
 import Home from '../pages/Home'
-import Donation from '../components/Donation'
+import Donation from '../pages/Donation'
 
 
 const Routes = () => {
@@ -20,7 +20,7 @@ const Routes = () => {
             <Route path="/donation" exact component={Donation} />
             <Route path="/contact" exact component={Contact} />
             <Route path="/how" exact component={How} />
-            <Route path="/sign_up" exact component={RequestHelp} />
+            <Route path="/request_help" exact component={RequestHelp} />
             <Route exact component={Default} />
         </Switch>
     )
