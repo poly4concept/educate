@@ -7,6 +7,10 @@ import Three from '../components/Three'
 import SubComponent from '../components/SubComponent'
 import Testimonials from '../components/Testimonials'
 import Help from '../components/Help'
+import Own from '../components/Own'
+import Mobile from '../components/Mobile'
+
+
 
 const Home = () => {
     return (
@@ -16,7 +20,9 @@ const Home = () => {
            <Three/>
            <SubComponent/>
            <Help/>
+           <Own/>
            <Testimonials/>
+           <Mobile/>
         </div>
     )
 }
