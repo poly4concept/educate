@@ -1,0 +1,82 @@
+label, h4, small{
+    color: var(--fades);
+}
+.contact-head{
+    padding: 4rem 2rem;
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--primary);
+}
+.contact-head *{
+    color: var(--white);
+    text-align: center;
+}
+.contact-head h2{
+    margin-bottom: -1rem;
+}
+.contact-container{
+    max-width: 80vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem 20px;
+    margin: 0 auto;
+}
+.info, .form{
+    width: 100%;
+}
+.form h3{
+    font-size: 2.3rem;
+    color: var(--primary);
+}
+hr{
+    margin-bottom: 2.5rem;
+}
+.contact-icon{
+    padding: 15px;
+    font-size: 20px;
+    background-color: #eef7ff;
+    color: var(--primary);
+    border-radius: 50%;
+}
+.info-hover{
+    margin-bottom: 2rem;
+}
+.info-hover h4{
+    margin-left: 2px;
+    margin-bottom: -5px;
+}
+.info-hover:hover .contact-icon{
+    background-color: var(--primary);
+    color: #fff;
+}
+.form-group{
+    margin-bottom: 1.5rem;
+}
+button{
+    padding: 1rem 1.5rem;
+    background-color: var(--secondary);
+    border: none;
+    border-radius: 5px;
+    color: var(--white);
+    cursor: pointer;
+}
+button:hover{
+    background-color: var(--red);
+}
+
+
+
+@media screen and (min-width: 768px){
+    .contact-container{
+        flex-direction: row;
+        padding-bottom: 2rem;
+    }
+    .contact-head{
+        padding: 4rem 0;
+        margin-bottom: 5rem;
+    }
+}
