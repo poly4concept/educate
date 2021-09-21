@@ -75,12 +75,12 @@
     align-items: center;
     justify-content: center;
 }
-.search:hover{
+.button-container .search:hover{
     background-color: white;
     border: 2px solid #D17604;
     color: #D17604;
 }
-.search{
+.button-container .search{
     background: #D17604;
     border-radius: 15px;
     border: none;
@@ -97,7 +97,7 @@
     align-items: center;
     justify-content: space-between;
 }
-.upload{
+.button-container  .upload{
     background: white;
     border-radius: 15px;
     border: 1px solid #D17604;
@@ -106,9 +106,9 @@
     margin: 5px;
     height: 40px;
 }
-.upload:hover{
+.button-container  .upload:hover{
     background-color: #D17604;
-    column-count: white;
+    color: white;
 }
 @media (max-width: 800px){
     .testimonial-container{
