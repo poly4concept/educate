@@ -3,12 +3,7 @@ import React, { useState } from 'react'
 
 // PACKAGES
 import { Link, NavLink } from 'react-router-dom'
-import { BiMenuAltRight } from "react-icons/bi"
-import { FaSearch, FaTimesCircle } from "react-icons/fa"
 
-
-// IMAGES
-import logo from '../assets/ikons.png'
 
 
 const Navbar = () => {
