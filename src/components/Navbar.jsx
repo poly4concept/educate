@@ -54,7 +54,7 @@ const Navbar = () => {
                     <NavLink to="/test" className="link" activeClassName="link-active">Take a test</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/contact" className="link" activeClassName="link-active">Signup</NavLink>
+                    <NavLink to="/contact" className="link" activeClassName="link-active">Log In</NavLink>
                 </li>
 
                 <li onClick={() => setMenu(!menu)}>

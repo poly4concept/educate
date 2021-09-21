@@ -14,7 +14,7 @@ const Hero = () => {
                     <p>Search for books and resources</p>
                     <div className='inputContain'>
                         <input value='find any topic you want' />
-                        <button type='button'>Search</button>
+                        <button className='searchforhero' type='button'>Search</button>
                     </div>
                 </div>
             </div>

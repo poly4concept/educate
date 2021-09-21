@@ -1,5 +1,6 @@
 import React from 'react';
 import Login from '../assets/hero.png'
+import { Link } from 'react-router-dom'
 
 const Contact = () => {
     return (
@@ -10,8 +11,7 @@ const Contact = () => {
             </div>
                 <div class="form">
                     <hr />
-                    <form action="action_page.php" method="post">
-
+                    <form >
                         <div class="container">
                             <label for="uname"><b>Username</b></label>
                             <input type="text" placeholder="Enter Username" name="uname" required/>
@@ -19,13 +19,14 @@ const Contact = () => {
                             <label for="psw"><b>Password</b></label>
                             <input type="password" placeholder="Enter Password" name="psw" required/>
 
-                            <button type="submit">Login</button>
+                            
                             <label>
                             <input type="checkbox" checked="checked" name="remember"/> Remember me
                             </label>
                         </div>
 
-                        </form>
+                    </form>
+                    <Link className='login-button' exact to="/home">Login</Link>
                 </div>
             </div>
         </>
