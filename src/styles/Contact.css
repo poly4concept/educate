@@ -1,82 +1,95 @@
-label, h4, small{
-    color: var(--fades);
-}
-.contact-head{
-    padding: 4rem 2rem;
-    margin-bottom: 5rem;
+.login-container{
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    background-color: var(--primary);
+    flex-direction: row;
 }
-.contact-head *{
-    color: var(--white);
-    text-align: center;
+form {
+  border: 3px solid #f1f1f1;
+  padding: 0 15px;
+
+     width: 50vw;
 }
-.contact-head h2{
-    margin-bottom: -1rem;
+form .container{
+    width: 50vw;
 }
-.contact-container{
-    max-width: 80vw;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 2rem 20px;
-    margin: 0 auto;
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  padding: 12px 20px;
+  margin: 8px 0;
+  width: 100%;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
 }
-.info, .form{
+
+/* Set a style for all buttons */
+button {
+ background-color: #D17604;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media (max-width: 800px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  form {
+     width: 100vw;
+     padding: 0;
+}
+  .cancelbtn {
     width: 100%;
+  }
+  .login-container{
+    display: flex;
+    overflow-x: hidden;
+    flex-direction: column;
 }
-.form h3{
-    font-size: 2.3rem;
-    color: var(--primary);
+form .container{
+    width: 100vw;
+    margin-top: -350px;
 }
-hr{
-    margin-bottom: 2.5rem;
+.login-img{
+    visibility: hidden;
 }
-.contact-icon{
-    padding: 15px;
-    font-size: 20px;
-    background-color: #eef7ff;
-    color: var(--primary);
-    border-radius: 50%;
-}
-.info-hover{
-    margin-bottom: 2rem;
-}
-.info-hover h4{
-    margin-left: 2px;
-    margin-bottom: -5px;
-}
-.info-hover:hover .contact-icon{
-    background-color: var(--primary);
-    color: #fff;
-}
-.form-group{
-    margin-bottom: 1.5rem;
-}
-button{
-    padding: 1rem 1.5rem;
-    background-color: var(--secondary);
-    border: none;
-    border-radius: 5px;
-    color: var(--white);
-    cursor: pointer;
-}
-button:hover{
-    background-color: var(--red);
-}
-
-
-
-@media screen and (min-width: 768px){
-    .contact-container{
-        flex-direction: row;
-        padding-bottom: 2rem;
-    }
-    .contact-head{
-        padding: 4rem 0;
-        margin-bottom: 5rem;
-    }
 }

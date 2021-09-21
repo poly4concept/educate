@@ -1,0 +1,14 @@
+.QandA{
+    width: 100vw;
+    background: linear-gradient(91.42deg, #D17604 18.94%, #F3D552 98.9%, #FBEC64 119.57%);
+    padding: 1px;
+    margin-bottom: 20px;
+}
+.QandA p{
+    color: white;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+}

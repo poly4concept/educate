@@ -1,0 +1,66 @@
+.post{
+    margin: 0 auto;
+    width: 90%;
+    margin-bottom: 20px;
+    font-family: 'Montserrat';
+}
+.post-container{
+    margin-bottom: 10rem;
+}
+.post-container h3{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 39px;
+    color: #4D4C4C;
+    margin-left: 7vw;
+}
+.post-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.post-card .image{
+    flex-basis: 40%;
+}
+.post-card .image img{
+    max-width: 100%;
+}
+.post-details h5{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+}
+.post-details p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    color: #4D4C4C;
+}
+.post-details a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #D17604;
+}
+.post-details a:hover{
+    text-decoration: underline;
+}
+.time-tag{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+@media (max-width: 800px){
+    .post-card{
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+}

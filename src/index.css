@@ -42,3 +42,9 @@ a{
 ul{
   list-style-type:none;
 }
+
+@media (max-width: 800px){
+  .loading{
+    overflow-x: hidden;
+  }
+}

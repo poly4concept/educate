@@ -1,16 +1,21 @@
 /* GLOBAL CSS VARIABLES */
 
-@import url("./Signup.css");
+
 @import url("./Navbar.css");
 @import url("./Footer.css");
-@import url("./Detail.css");
 @import url("./Hero.css");
-@import url("./Believe.css");
-@import url("./Help.css");
-@import url("./Three.css");
-@import url("./SubComponent.css");
+@import url("./Resource.css");
+@import url("./HowItWorks.css");
+@import url("./BookPreview.css");
+@import url("./QuestionPreview.css");
+@import url("./AskQuestion.css");
 @import url("./Testimonials.css");
-@import url("./Own.css");
-@import url("./Mobile.css");
-@import url("./RequestHelp.css");
+@import url("./Buttons.css");
+@import url("./Reconmended.css");
+@import url("./QandA.css");
+@import url("./Search.css");
+@import url("./Post.css");
+@import url("./Default.css");
+@import url("./CourseItem.css");
 @import url("./Contact.css");
+@import url("./RequestHelp.css");

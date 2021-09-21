@@ -35,16 +35,11 @@ const Navbar = () => {
     return (
         <header className={navbar ? 'navbar active' : 'navbar'}>
 
-            <div className="logo">
-                <Link to="/">
-                    <img src={logo} alt="logo"/>
+                <Link to="/" className='logo'>
+                   IWE
                 </Link>
-            </div>
 
-            <div className={navbar ? 'search search-active' : 'search'}>
-                <FaSearch className="search-icon"/>
-                <input type="text" placeholder="Search CMO"/>
-            </div>
+
 
             <div className="menu" onClick={() => setMenu(!menu)}>
                 <BiMenuAltRight /> 
@@ -52,19 +47,19 @@ const Navbar = () => {
 
             <ul className="header-link" style={styleMenu} onClick={() => setMenu(!menu)}>
                 <li>
-                    <NavLink exact to="/" className="link" activeClassName="link-active">Home</NavLink>
+                    <NavLink exact to="/question" className="link" activeClassName="link-active">Ask Question</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/request_help" className="link" activeClassName="link-active">Request help</NavLink>
+                    <NavLink to="/material" className="link" activeClassName="link-active">Access Materials</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/how" className="link" activeClassName="link-active">How it works</NavLink>
+                    <NavLink to="/how" className="link" activeClassName="link-active">Expert Support</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/contact" className="link" activeClassName="link-active">Contact us</NavLink>
+                    <NavLink to="/test" className="link" activeClassName="link-active">Take a test</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/donation" className="link color" activeClassName="link-active">Start Donation</NavLink>
+                    <NavLink to="/contact" className="link" activeClassName="link-active">Signup</NavLink>
                 </li>
 
                 <li onClick={() => setMenu(!menu)}>

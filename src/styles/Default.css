@@ -1,0 +1,32 @@
+.notfound{
+    display:flex;
+    height:100vh;
+    justify-content: center;
+    align-items:center;
+}
+
+.not-center{
+    width:90%;
+    text-align:center;
+}
+
+.not-center h1{
+    font-weight:bold;
+    font-size:55px;
+    color:#D17604;
+}
+
+.not-center h3{
+    color:black;
+}
+
+.not-center .not-button{
+    padding:15px;
+    background:#D17604;
+    color:var(--white);
+}
+.not-center .not-button:hover{
+    background-color: white;
+    color: #D17604;
+    border: #D17604 1px solid;
+}

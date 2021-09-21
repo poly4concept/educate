@@ -1,0 +1,63 @@
+.bookpreview{
+    margin: 0 auto;
+    width: 90vw;
+    margin-bottom: 90px;
+    font-family: 'Montserrat';
+}
+.bookpreview h3{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+}
+.bookpreview .book-header{
+    display: flex;
+    justify-content: space-between;
+}
+.bookpreview .book-header p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #4D4C4C;
+    cursor: pointer;
+    text-decoration: none;
+}
+.bookpreview .book-header p:hover{
+    text-decoration: underline;
+}
+.book-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.book-container .card{
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    margin-right: 40px;
+}
+.book-body{
+    background-color: #D17604;
+    color: white;
+    padding: 10px 50px;
+    margin-top: -10px;
+}
+.book-body p{
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 26px;
+}
+.innerContainer{
+    margin-right: 20px
+}
+
+/* mobile */
+@media (max-width: 800px){
+    .book-container{
+        flex-direction: column;
+    }
+    .innerContainer{
+    margin-bottom: 20px;
+}
+}
