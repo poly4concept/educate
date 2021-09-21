@@ -36,7 +36,7 @@ const Navbar = () => {
         <header className={navbar ? 'navbar active' : 'navbar'}>
 
                 <Link to="/" className='logo'>
-                   IWE
+                   EDUCATE
                 </Link>
 
 
