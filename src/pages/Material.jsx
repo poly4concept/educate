@@ -6,7 +6,7 @@ import heroImg from '../assets/hero.png'
 const Material = () => {
     return (
         <div>
-            <img src={heroImg} style={{ visibility: 'hidden', marginBottom: '-600px'} } alt='' />
+            <img src={heroImg} style={{ visibility: 'hidden', marginBottom: '-610px'} } alt='' />
             <QandA text={'Your Study Resources'} />
             <Search />
             <Courses/>

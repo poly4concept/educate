@@ -6,9 +6,6 @@ import { Link, NavLink } from 'react-router-dom'
 import { BiMenuAltRight } from "react-icons/bi"
 import { FaTimesCircle } from "react-icons/fa"
 
-
-
-
 const Navbar = () => {
 
     const [menu, setMenu] = useState(false)
